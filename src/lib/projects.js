@@ -1,9 +1,9 @@
 import { desc } from 'framer-motion/client'
-import realEstate from '../assets/image1.png'
-import Sangeeth from '../assets/SangeethBox.png'
-import Cosmos from '../assets/cosmos.png'
-import Blog from '../assets/mern-blog.png'
-import Pdf from '../assets/pdfExtracter.png'
+import realEstate from '../assets/image1'
+import Sangeeth from '../assets/sangeethbox'
+import Cosmos from '../assets/cosmos'
+import Blog from '../assets/mern-blog'
+import Pdf from '../assets/pdfExtracter'
 
 
 
