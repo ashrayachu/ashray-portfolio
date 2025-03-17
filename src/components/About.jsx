@@ -1,5 +1,5 @@
 import React from 'react'
-import Inner from './animationLayout/inner'
+import Inner from './animationLayout/Inner'
 import { GraduationCap, Briefcase, X } from "lucide-react"
 
 function About() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Inner from './animationLayout/inner'
+import Inner from './animationLayout/Inner'
 
 import { Sparkles, ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom"; // Using React Router for navigation

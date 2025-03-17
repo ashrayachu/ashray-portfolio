@@ -1,6 +1,5 @@
 
-import Inner from './animationLayout/inner'
-
+import Inner from './animationLayout/Inner'
 import projects from '../lib/projects'
 
 
