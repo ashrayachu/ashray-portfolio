@@ -1,5 +1,5 @@
 import React from 'react'
-import Inner from './animationLayout/inner'
+import Inner from './animationLayout/Inner'
 
 import { CodeXml, TabletSmartphone, TvMinimal } from "lucide-react"
 
