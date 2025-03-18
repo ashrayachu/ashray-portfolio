@@ -1,9 +1,9 @@
-import { desc } from 'framer-motion/client'
-import realEstate from '../assets/image1'
-import Sangeeth from '../assets/sangeethbox'
-import Cosmos from '../assets/cosmos'
-import Blog from '../assets/mern-blog'
-import Pdf from '../assets/pdfExtracter'
+
+import realEstate from '../assets/image1.png'
+import Sangeeth from '../assets/sangeethbox.png'
+import Cosmos from '../assets/cosmos.png'
+import Blog from '../assets/mern-blog.png'
+import Pdf from '../assets/pdfExtracter.png'
 
 
 
@@ -30,6 +30,7 @@ const projects = [
         lang: ["reactjs", "tailwindcss", "express", "nodejs", "mongodb"],
         image: Blog,
         desc:"Blog is a website used to post blogs of users.",
+        live:null,
         gitLink:"https://github.com/ashrayachu/mern-blog"
     },
     {
@@ -37,7 +38,8 @@ const projects = [
         lang: ["reactjs", "tailwindcss", "express", "nodejs", "mongodb", "pdflib"],
         image: Pdf,
         desc:"PDF-Extracter is a MERN stack application that allows users to extract specific pages from a PDF file and generate a new PDF with only the selected pages. Built using React for the frontend and Node.js/Express with pdf-lib for PDF manipulation, the app provides a seamless way to customize and download PDFs efficiently. ",
-        gitLink:"https://github.com/ashrayachu/form-extracter"
+        gitLink:"https://github.com/ashrayachu/form-extracter",
+        live:null,
     },
 
 ]
