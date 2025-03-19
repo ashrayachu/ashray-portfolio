@@ -1,17 +1,13 @@
 import React from 'react'
 import Inner from './animationLayout/Inner'
+import Resume from "../assets/Ashray_Resume_02.pdf"
 
 import { Sparkles, ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom"; // Using React Router for navigation
 
 function Home() {
     const handleDownloadResume = () => {
-        const link = document.createElement("a");
-        link.href = "/path-to-your-resume.pdf"; // Update with your actual resume path
-        link.download = "Ashray_Resume.pdf"; // Set the desired file name
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+       window.open(Resume)
     };
 
     return (

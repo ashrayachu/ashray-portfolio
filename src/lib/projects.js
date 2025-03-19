@@ -4,6 +4,8 @@ import Sangeeth from '../assets/sangeethbox.png'
 import Cosmos from '../assets/cosmos.png'
 import Blog from '../assets/mern-blog.png'
 import Pdf from '../assets/pdfExtracter.png'
+import Crime from '../assets/Crime.png'
+
 
 
 
@@ -16,6 +18,14 @@ const projects = [
         desc:"Music player application developed using MERN stack technology. The application can play and download any music",
         live:"https://sangeethbox.netlify.app",
         gitLink:"https://github.com/ashrayachu/SangeetBox_1"
+    }, 
+    {
+        name: "Crime-Investigator",
+        lang: ["Python", "OpenCV", "SQL",],
+        image: Crime,
+        desc:"Crime - Investigator is a desktop application used for identifying criminals using face recognition.",
+        live:"https://evening-taiga-97235.herokuapp.com/",
+        gitLink:"https://github.com/ashrayachu/cosmos"
     },
     {
         name: "Cosmos",
